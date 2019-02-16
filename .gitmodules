@@ -4,6 +4,3 @@
 [submodule "machine/poller-pi"]
 	path = machine/poller-pi
 	url = https://github.com/vanderbilt-design-studio/poller-pi
-[submodule "input/python-ultimaker-api"]
-	path = input/python-ultimaker-api
-	url = https://github.com/vanderbilt-design-studio/python-ultimaker-api

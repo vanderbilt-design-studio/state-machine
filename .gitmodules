@@ -4,3 +4,6 @@
 [submodule "machine/poller-pi"]
 	path = machine/poller-pi
 	url = https://github.com/vanderbilt-design-studio/poller-pi
+[submodule "output/sign"]
+	path = output/sign
+	url = git@github.com:vanderbilt-design-studio/sign.git

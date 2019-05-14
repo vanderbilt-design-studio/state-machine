@@ -7,3 +7,6 @@
 [submodule "output/sign"]
 	path = output/sign
 	url = git@github.com:vanderbilt-design-studio/sign.git
+[submodule "output/site-overrides"]
+	path = output/site-overrides
+	url = git@github.com:vanderbilt-design-studio/site-overrides.git

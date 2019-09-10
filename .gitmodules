@@ -10,3 +10,6 @@
 [submodule "output/site-overrides"]
 	path = output/site-overrides
 	url = git@github.com:vanderbilt-design-studio/site-overrides.git
+[submodule "output/driver-pi"]
+	path = output/driver-pi
+	url = git@github.com:vanderbilt-design-studio/driver-pi.git

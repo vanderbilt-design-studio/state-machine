@@ -1,15 +1,20 @@
 [submodule "machine/public-endpoint"]
 	path = machine/public-endpoint
 	url = https://github.com/vanderbilt-design-studio/public-endpoint
+	branch = master
 [submodule "machine/poller-pi"]
 	path = machine/poller-pi
 	url = https://github.com/vanderbilt-design-studio/poller-pi
+	branch = master
 [submodule "output/sign"]
 	path = output/sign
 	url = git@github.com:vanderbilt-design-studio/sign.git
+	branch = master
 [submodule "output/site-overrides"]
 	path = output/site-overrides
 	url = git@github.com:vanderbilt-design-studio/site-overrides.git
+	branch = master
 [submodule "output/driver-pi"]
 	path = output/driver-pi
 	url = git@github.com:vanderbilt-design-studio/driver-pi.git
+	branch = master

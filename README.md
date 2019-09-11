@@ -96,4 +96,15 @@ Originally written by @yunyu, various visual improvements/fixes to the Design St
 
 ### driver-pi/
 
-Client of public-endpoint at /sign route that runs on the Pi. Drives 2N7000 N-type MOSFET gate pin to HIGH to activate a 5V relay that switches 120VAC for the traditional open sign above the door. Changes synchronously with sign/.
+Client of public-endpoint at /sign route that runs on the Pi. Drives MOSFET gate pin to HIGH to activate relay. Changes synchronously with sign/.
+
+### T9A.pdf
+
+T9AS1D12-5 SPST 5VDC Relay used to switch 120VAC for the traditional open sign above the door. 
+
+- Switches black cable connection
+- White and green are connected directly
+
+### 2N7000-D.pdf
+
+N-type Signal MOSFET that hooks GND on the Raspberry Pi to the relay. 3.3V I/O pins are not powerful enough to drive the relay so this is needed to do the heavy lifting.

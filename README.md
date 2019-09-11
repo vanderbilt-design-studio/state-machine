@@ -22,9 +22,11 @@ Ultimaker http request API in Python written for the Design Studio. Might run in
 
 ## machine/ (Input + Output)
 
-### schematic-pi/ KiCad Schematic for State Machine Circuitry
+### schematic-pi/
 
 ![Schematic of I/O circuitry](./machine/schematic-pi/image.png)
+
+KiCad project with a schematic for the state machine's circuitry.
 
 ### poller-pi/ 
 

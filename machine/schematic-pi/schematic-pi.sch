@@ -204,11 +204,11 @@ F 3 "~" H 8650 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Relay:SANYOU_SRD_Form_C K?
+L Relay:SANYOU_SRD_Form_C K1
 U 1 1 5D786456
 P 7100 2000
-F 0 "K?" H 7530 2046 50  0000 L CNN
-F 1 "SANYOU_SRD_Form_C" H 7530 1955 50  0000 L CNN
+F 0 "K1" H 7530 2046 50  0000 L CNN
+F 1 "T9AS1D12-5" H 7530 1955 50  0000 L CNN
 F 2 "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C" H 7550 1950 50  0001 L CNN
 F 3 "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf" H 7100 2000 50  0001 C CNN
 	1    7100 2000

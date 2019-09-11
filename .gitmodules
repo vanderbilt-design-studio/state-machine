@@ -1,10 +1,10 @@
 [submodule "machine/public-endpoint"]
 	path = machine/public-endpoint
-	url = https://github.com/vanderbilt-design-studio/public-endpoint
+	url = git@github.com:vanderbilt-design-studio/public-endpoint.git
 	branch = master
 [submodule "machine/poller-pi"]
 	path = machine/poller-pi
-	url = https://github.com/vanderbilt-design-studio/poller-pi
+	url = git@github.com:vanderbilt-design-studio/poller-pi.git
 	branch = master
 [submodule "output/sign"]
 	path = output/sign
@@ -18,3 +18,6 @@
 	path = output/driver-pi
 	url = git@github.com:vanderbilt-design-studio/driver-pi.git
 	branch = master
+[submodule "input/python-ultimaker-printer-api"]
+	path = input/python-ultimaker-printer-api
+	url = git@github.com:vanderbilt-design-studio/python-ultimaker-printer-api.git

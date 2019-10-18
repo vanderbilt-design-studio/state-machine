@@ -21,3 +21,4 @@
 [submodule "input/python-ultimaker-printer-api"]
 	path = input/python-ultimaker-printer-api
 	url = git@github.com:vanderbilt-design-studio/python-ultimaker-printer-api.git
+    branch = master

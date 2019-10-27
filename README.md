@@ -30,10 +30,14 @@ KiCad project with a schematic for the state machine's circuitry.
 
 ### poller-pi/ 
 
+[![Build Status](https://travis-ci.org/vanderbilt-design-studio/poller-pi.svg?branch=master)](https://travis-ci.org/vanderbilt-design-studio/poller-pi)
+
 Physical presence of the state machine in the Design Studio. Bundles sensory inputs into a JSON and sends them to public-endpoint/ over a websocket at / (root) route
 
 
 ### public-endpoint/
+
+[![Build Status](https://travis-ci.org/vanderbilt-design-studio/public-endpoint.svg?branch=master)](https://travis-ci.org/vanderbilt-design-studio/public-endpoint)
 
 [iot.vanderbilt.design](iot.vanderblit.design) (link won't show anything, doesn't serve any actual HTTP stuff)
 
@@ -73,6 +77,8 @@ Websockets server that routes data from the poller-pi to sign/ and site-override
 
 ### sign/
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/caaae3d8-1fec-49e2-97a5-d355f44e7612/deploy-status)](https://app.netlify.com/sites/design-studio-sign/deploys)
+
 [sign2.vanderbilt.design](https://sign2.vanderbilt.design)
 
 React single-page progressive web app served by Netlify.
@@ -84,6 +90,8 @@ Two outputs:
 	- This is the same pi as poller-pi/ and driver-pi/
 
 ### site-overrides/
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/45a69088-96ff-417e-a9e0-fc1842e004ea/deploy-status)](https://app.netlify.com/sites/design-studio/deploys)
 
 Affects main site, [vanderbilt.design](https://vanderbilt.design).
 

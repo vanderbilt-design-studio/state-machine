@@ -43,6 +43,8 @@ Physical presence of the state machine in the Design Studio. Bundles sensory inp
 
 Websockets server that routes data from the poller-pi to sign/ and site-overrides/ clients. Runs on Heroku, protected behind Cloudflare.
 
+The below documentation is a general description of what's important. There's more specific documentation in the code itself.
+
 - input
 	- / (root) route
 		- Receives JSON updates from poller-pi/ 
@@ -54,6 +56,8 @@ Websockets server that routes data from the poller-pi to sign/ and site-override
 		- Serves open status to sign/ clients
 	- /printers route
 		- Serves printer images to site-overrides/ clients
+	- /hours route
+		- Serves calculated hours for the Design Studio
 - logic (main.py)
 	- input-dependent
 		1. Receive update from poller-pi. If no update received within 30s, proceed with an update containing empty state.
@@ -73,6 +77,7 @@ Websockets server that routes data from the poller-pi to sign/ and site-override
 
 	- Live Printer Feeds
 	- Live Sign Status
+	- Live Hours
 	- Current Schedule
 
 ### sign/
@@ -81,7 +86,7 @@ Websockets server that routes data from the poller-pi to sign/ and site-override
 
 [sign2.vanderbilt.design](https://sign2.vanderbilt.design)
 
-React single-page progressive web app served by Netlify.
+React single-page progressive web app served by Netlify. Displays whether open, mentors if open, weather, and time.
 
 Two outputs:
 
@@ -99,6 +104,7 @@ Originally written by @yunyu, various visual improvements/fixes to the Design St
 
 - Add printer live feeds
 - Add status sign
+- Add dynamic hours
 - Hide unfriendly youtube video & Vanderbilt social media links
 - Make Wordpress theme column-sizes expand/contract properly on desktop and mobile
 

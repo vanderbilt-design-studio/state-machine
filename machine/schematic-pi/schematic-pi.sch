@@ -15,8 +15,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	3000 1750 3000 2000
-Wire Wire Line
 	1700 2800 2100 2800
 Wire Wire Line
 	1650 4000 2100 4000
@@ -113,21 +111,6 @@ Wire Wire Line
 	1700 1350 1700 2800
 Wire Wire Line
 	1300 1350 1700 1350
-Wire Wire Line
-	900  1750 3000 1750
-Wire Wire Line
-	900  1450 900  1750
-$Comp
-L Connector:Raspberry_Pi_2_3 J1
-U 1 1 5D78159F
-P 2900 3300
-F 0 "J1" H 2900 4781 50  0000 C CNN
-F 1 "Raspberry Pi  PLEASE SEE (https://pinout.xyz)" H 2900 4690 50  0000 C CNN
-F 2 "" H 2900 3300 50  0001 C CNN
-F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf" H 2900 3300 50  0001 C CNN
-	1    2900 3300
-	1    0    0    -1  
-$EndComp
 Wire Notes Line
 	6050 6250 800  6250
 Wire Notes Line
@@ -169,7 +152,7 @@ L Device:R R1
 U 1 1 5D79CC3E
 P 8950 4600
 F 0 "R1" V 8743 4600 50  0000 C CNN
-F 1 "Random resistance" V 8834 4600 50  0000 C CNN
+F 1 "Random resistance representing AC circuit" V 8834 4600 50  0000 C CNN
 F 2 "" V 8880 4600 50  0001 C CNN
 F 3 "~" H 8950 4600 50  0001 C CNN
 	1    8950 4600
@@ -214,4 +197,19 @@ F 3 "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf" H 7100 2000 50  0001
 	1    7100 2000
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector:Raspberry_Pi_2_3 J1
+U 1 1 5D78159F
+P 2900 3300
+F 0 "J1" H 2900 4781 50  0000 C CNN
+F 1 "Raspberry Pi  PLEASE SEE (https://pinout.xyz)" H 2900 4690 50  0000 C CNN
+F 2 "" H 2900 3300 50  0001 C CNN
+F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf" H 2900 3300 50  0001 C CNN
+	1    2900 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 4600 900  4600
+Wire Wire Line
+	900  4600 900  1450
 $EndSCHEMATC

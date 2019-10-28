@@ -24,9 +24,9 @@ Ultimaker http request API in Python written for the Design Studio. Might run in
 
 ### schematic-pi/
 
-![Schematic of I/O circuitry](./machine/schematic-pi/image.png)
+![Schematic of I/O circuitry](./machine/schematic-pi/schematic-pi.svg)
 
-KiCad project with a schematic for the state machine's circuitry.
+KiCad project with a schematic for the state machine's circuitry. To export updated schematic to SVG, select "Plot schematic" from menu.
 
 ### poller-pi/ 
 

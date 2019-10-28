@@ -38,9 +38,9 @@ Wire Wire Line
 Wire Wire Line
 	2100 3500 1800 3500
 Wire Wire Line
-	1800 3500 1800 5500
+	1800 3500 1800 3600
 Wire Wire Line
-	1800 5500 5200 5500
+	1800 5500 4700 5500
 Wire Wire Line
 	5200 5500 5200 2500
 Wire Wire Line
@@ -212,4 +212,31 @@ Wire Wire Line
 	2500 4600 900  4600
 Wire Wire Line
 	900  4600 900  1450
+Wire Wire Line
+	2100 3600 1800 3600
+Connection ~ 1800 3600
+Wire Wire Line
+	1800 3600 1800 5500
+$Comp
+L Transistor_FET:2N7000 Q2
+U 1 1 5DB75C8F
+P 4900 2500
+F 0 "Q2" H 5106 2546 50  0000 L CNN
+F 1 "2N7000" H 5106 2455 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5100 2425 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 4900 2500 50  0001 L CNN
+	1    4900 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 2300 5000 2300
+Connection ~ 5500 2300
+Wire Wire Line
+	5000 2700 5500 2700
+Connection ~ 5500 2700
+Wire Wire Line
+	4700 2500 4700 5500
+Connection ~ 4700 5500
+Wire Wire Line
+	4700 5500 5200 5500
 $EndSCHEMATC

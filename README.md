@@ -48,7 +48,7 @@ The below documentation is a general description of what's important. There's mo
 - input
 	- / (root) route
 		- Receives JSON updates from poller-pi/ 
-	- weather.py [wttr.in](https://wttr.in) for current weather
+	- weather.py [Vanderbilt Stadium WeatherSTEM](http://davidson.weatherstem.com/vanderbilt) for current weather
 		- sometimes returns gibberish, only displayed if there is a degrees symbol in it
 	- mentors.py Google Sheet containing mentor shifts
 - output
